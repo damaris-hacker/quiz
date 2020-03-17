@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt 1: JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<div>
+    <div id="start">
+        <header>
+            <img class="rund" src="1024.png" alt="JS" height="70" width="70">
+            <h1>JavaScript Quiz</h1>
+            <img src="calling-javascript-4.png" alt="code-snippets" heigth=auto width="400">
+        </header>
+
+        <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed.
+            Maximum score is 25 points.
+
+
+            <br> Now let's test your knowledge of JavaScript and see what you have learned so far.
+
+        </p>
+
+        <button id="start-btn"> Start Quiz</button>
+
+    </div>
+
+    <div id="quiz" , style="display:none">
+        <h3>JavaScript Quiz</h3>
+
+        <div id="question-container">
+            <p id="progress"></p>
+            <p id="topic"></p>
+            <p id="question"></p>
+
+
+            <div id="choices">
+                <button id="btn0" class="choice-buttons"><span id="choice0"></span></button>
+                <button id="btn1" class="choice-buttons"><span id="choice1"></span></button>
+                <button id="btn2" class="choice-buttons"><span id="choice2"></span></button>
+                <button id="btn3" class="choice-buttons"><span id="choice3"></span></button>
+            </div>
+
+        </div>
+
+        <div id="answerbuttons">
+            <button id="back-btn" , style="display:none">❮ Back</button>
+
+            <button id="next-btn">Next ❯</button>
+
+        </div>
+
+        <!-- <label id="minutes">00</label>:<label id="seconds">00</label> -->
+
+
+        <div id="submitbutton"> <button id="submit-btn" , style="display:none">Get Results</button>
+        </div>
+
+
+    </div>
+
+    <div id="results">
+        <!-- <p id="score"></p>
+        <p id="scoreInPercentage"></p>
+        <p id="claim"></p>
+        <p id="gif"></p>
+        <p id=time-spent></p>
+        <p id=user-score></p> -->
+
+    </div>
+
+    <script src="main.js"></script>
+</div>
+
+</html>

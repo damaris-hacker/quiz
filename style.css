@@ -1,0 +1,149 @@
+/* Farbkonzept: 
+Schriftfarbe: #414141
+Buttonfarbe: #1a73e8 (blau)
+font-family: Roboto
+h1: 18px
+normaler text: 14px
+
+
+*/
+
+
+
+
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    display:flex;
+    padding:20px;
+}
+
+/* header {
+    display: flex;
+} */
+
+h1 {
+    font-size:32px;
+    color: #414141;
+    line-height: 44px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-weight: 400;
+
+}
+
+p {
+    color: #414141;
+    line-height: 1.444;
+    overflow-wrap: break-word;
+}
+
+.rund {
+    border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px
+}
+
+#quiz {
+
+border:2px solid #f2f2f2;
+border-radius:10px;
+padding: 20px;
+box-shadow: 0 0 10px 1px;
+display:flex;
+}
+
+
+
+
+.choice-buttons {
+    background-color: #f2f2f2;
+    width: 250px;
+    font-size: 20px;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    text-align:center;
+    transition-duration: 0.4s;
+
+    
+}
+
+#start {
+ border: 1px solid #414141;
+ padding-top:20px;
+ padding-bottom:20px;
+ width: 400px;
+}
+
+
+#start-btn {
+    background-color: #1a73e8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#back-btn, #next-btn, #submit-btn, #check-answers-btn, #try-again-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+
+#question {
+    font-size: 25px;
+}
+
+
+#choices {
+    justify-content:flex;
+    align-items:center;
+    display:grid;
+    grid-template-columns:repeat(2, auto);
+    gap:1px;
+}
+
+.choice-buttons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#answerbuttons, #submitbutton {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+.correct {
+    color:green;
+}
+
+.false {
+    color:red;
+}
+
+.chosen {
+    font-weight:bold;
+    text-decoration: underline;
+}
