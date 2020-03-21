@@ -330,7 +330,7 @@ function showResults() {
   checkYourAnswersButton.addEventListener('click', showChosenAnswers);
 
   // try again button
-  let tryAgainButton = document.createElement('BUTTON');
+  let tryAgainButton = document.createElement('button');
   tryAgainButton.setAttribute('id', 'try-again-btn');
 
   let text2 = document.createTextNode('Try again');
@@ -340,7 +340,7 @@ function showResults() {
 
   tryAgainButton.onclick = function() {
     startQuiz();
-    resultPage.style.display = 'none';
+    resultPage.style.display = 'none'; 
   };
 }
 // showChosenAnswers function 
