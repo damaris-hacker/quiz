@@ -379,6 +379,7 @@ function showChosenAnswers() {
       let imageElement = document.createElement('img');
       imageElement.setAttribute('src', questions[i].imgURL);
       imageElement.setAttribute('alt', 'imageForChosenQuestion');
+      imageElement.id='imageElement';
       answerCard.appendChild(imageElement)
       newDivForAnswers.appendChild(answerCard);
     }
@@ -727,10 +728,10 @@ const questions = [
     topic: 'Module 6: Document Object Model (DOM)',
 
     answers: [
-      { name: `document.getElementsByTagName('h1')`, correct:true },
-      { name: `getElementsByTagName('h1')`},
-      { name: `document.getElementByTagName('h1')`},
-      { name: `document.getElementById('h1')`},
+      { name: `document.getElementsByTagName ('h1')`, correct:true },
+      { name: `getElementsByTagName ('h1')`},
+      { name: `document.getElementByTagName ('h1')`},
+      { name: `document.getElementById ('h1')`},
 
     ],
   },

@@ -317,9 +317,126 @@ p {
 
 /* Mobile screens
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
 
- #start {
+@media only screen and (max-width: 600px) {
+
+
+body {
+  width:100%;
+  min-width: 200px;
+  font-size: 16px; 
+  padding: 0;
+  margin:0;
+  margin-top:15px;
+  margin-bottom:15px;
+  
+}
+
+#start {
+  width: 100px;
+  min-width: 370px;
+}
+
+#start > p {
+  padding:20px;
+}
+
+
+
+#quiz {
+  width: 100px;
+  min-width:370px;
+border:0;
+}
+
+.theQuestion{
+  font-size:20px;
+  padding-right:5px;
+  padding-left:5px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.theImage {
+  padding-right:5px;
+  padding-left:5px;
+  margin:0;
+  width: 100%;
+  min-width: 300px;
+
+}
+
+.choice-buttons {
+  font-size:20px;
+  padding-right:5px;
+  padding-left:5px;
+  margin-top:0;
+}
+
+
+#results {
+  width: 100px;
+  min-width: 370px;
+  border:0;
+  padding-top:25px;
+}
+
+#results > h2{
+  margin:10px;
+}
+
+.resultscore {
+  margin:0;
+
+}
+
+#rightanswers, #percent, #result-text {
+  margin-top:10px;
+margin-bottom:10px;
+padding:0;
+}
+
+.result-img {
+  padding-top:5px;
+  padding-right:0;
+  padding-left:0;
+  width: 100%;
+  min-width: 300px;
+}
+
+.resultpage-btns {
+  padding-bottom:25px;
+}
+
+.answerCard {
+margin:0;
+margin-bottom:5px;
+}
+
+#questionElement {
+  font-size:20px;
+  padding-right:5px;
+  padding-left:5px;
+  line-height: 25px;
+  font-weight: 500;
+  padding-bottom:0;
+}
+
+#imageElement {
+  padding:0;
+  margin:0;
+  width: 100%;
+  min-width: 300px;
+
+}
+
+#answerElement {
+  padding:0;
+  margin:0;
+  padding-top:10px;
+}
+
+ /* #start {
    width: auto;
  }
 
@@ -335,6 +452,12 @@ p {
 
 
   #quiz {
+    width: 300px;
+    justify-content: space-between;
+
+  }
+
+  #question-container {
     width: auto;
   }
 
@@ -344,16 +467,14 @@ p {
   }
   
 .theImage {
-  width: auto;
-  padding-right: 25px;
-  padding-left: 25px;
+ margin: 0px;
 }
 
 .choice-buttons {
   font-size: 18px;
   margin: 5px;
 }
-}
+} */
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
