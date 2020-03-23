@@ -466,8 +466,8 @@ const questions = [
     topic: 'Module 2: Conditionals & Loops',
 
     answers: [
-      { name: '0,1,2....12' },
-      { name: '0,2,4,6,...14', correct: true },
+      { name: '0,1,2....12', correct:true },
+      { name: '0,2,4,6,...14'},
       { name: '2,4,6,8...12' },
       { name: '0,1,2,...14'}
     ],
